@@ -6,7 +6,7 @@
 
 ```css
 div {
-color: red solid
+    color: red solid;
 }
 ```
 - Descripcion:
@@ -14,5 +14,11 @@ color: red solid
 
  ### Id selector
 
- |peepee|poopoo|
- |----|----|
+```css
+#cool{
+    padding: 25px;
+}
+```
+
+- **Descripcion**:
+- Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
