@@ -10,8 +10,9 @@ div {
 }
 ```
 - Descripcion: Selecciona todos los ```<div>``` y les pone color rojo a las letras.
-- Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
+- Aplicacion: Estiliza todos los elementos ```div``` dentro de un documento HTML.
 
+---
  ### Id selector
 
 ```css
@@ -21,4 +22,8 @@ div {
 ```
 
 - Descripcion: Selecciona el elemento que tiene el id **cool** y le agrega un padding de 25px.
-- Aplicacion: Estiliza el elemento que tenga ese id especifico. 
+- Aplicacion: Estiliza el elemento que tenga ese id especifico.
+  
+---
+
+### Descendant Selector
