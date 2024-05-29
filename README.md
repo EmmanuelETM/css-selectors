@@ -1,6 +1,5 @@
 # css-selectors
-##### Emmanuel Torres Malena
-##### 2021-1097
+##### Emmanuel Torres Malena - 2021-1097
 
 
 ### Type selector
@@ -14,3 +13,6 @@ color: red solid
 - Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
 
  ### Id selector
+
+ |peepee|poopoo|
+ |----|----|
