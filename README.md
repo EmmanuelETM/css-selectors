@@ -1,5 +1,5 @@
 # css-selectors
-##### Emmanuel Torres Malena - 2021-1097
+##### Emmanuel Torres Malena | 2021-1097
 
 
 ### Type selector
@@ -9,7 +9,7 @@ div {
     color: red solid;
 }
 ```
-- Descripcion:
+- Descripcion: Selecciona todos los ```html <div>``` y les pone color rojo a las letras.
 - Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
 
  ### Id selector
@@ -20,5 +20,5 @@ div {
 }
 ```
 
-- **Descripcion**:
-- Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
+- Descripcion: Selecciona el elemento que tiene el id **cool** y le agrega un padding de 25px.
+- Aplicacion: Estiliza el elemento que tenga ese id especifico. 
