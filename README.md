@@ -67,7 +67,28 @@ div.shift {
 
 ### Comma Combinator
 
+```css
+div, span, .shift {
+    background-color: green;
+}
+```
 
+- Description: Selecciona a los ```<div>```, ```<span>```, y los elementos que tengan la clase **shift**; y les pone el fondo de color verde.
+- Aplicacion: Sirve para seleccionar multiples elementos y agregarles las mismas reglas css.
 
+---
 
+### Universal Selector
+
+```css
+* {
+    font-family: sans-serif;
+}
+```
+- Description: Selecciona todos los elementos del documento, y le cambia la fuente de texto a sans-serif
+- Aplicaion: Sirve para seleccionar todos los elementos de un documento HTML.
+
+---
+
+###
 
