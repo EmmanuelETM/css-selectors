@@ -9,7 +9,11 @@ div {
     color: red solid;
 }
 ```
-- Descripcion: Selecciona todos los ```html <div>``` y les pone color rojo a las letras.
+- Descripcion: Selecciona todos los
+```html
+<div>
+```
+y les pone color rojo a las letras.
 - Aplicacion: Estiliza todos los elementos <div> dentro de un documento HTML.
 
  ### Id selector
