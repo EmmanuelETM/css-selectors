@@ -126,5 +126,7 @@ plate ~ pickle {
 - Aplication: Sirve para seleccionar los elementos que estan despues de otro elemento; este selecciona a todos.
 
 ---
-#asdrdad
+
 ### Child Selector
+
+
