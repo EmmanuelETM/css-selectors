@@ -16,7 +16,7 @@ div {
  ### Id selector
 
 ```css
-#cool{
+#cool {
     padding: 25px;
 }
 ```
@@ -86,9 +86,45 @@ div, span, .shift {
 }
 ```
 - Description: Selecciona todos los elementos del documento, y le cambia la fuente de texto a sans-serif
-- Aplicaion: Sirve para seleccionar todos los elementos de un documento HTML.
+- Aplication: Sirve para seleccionar todos los elementos de un documento HTML.
+
+Este operador se puede combinar con otros selectores, por ejemplo:
+
+```css
+div * {
+    font-family: sans-serif;
+}
+```
+
+- Description: Selecciona todos los elementos dentro de un div, y la cambia la fuente de texto a sans-serif.
 
 ---
 
-###
+### Adjacent Sibling Selector
 
+```css
+plate + apple {
+    margin: 50px;
+    padding: 20px;
+}
+```
+
+- Description: Selecciona el primer elemento ```apple``` que esta despues de un elemento ```plate```, y le aplica un margin de 50px y un padding de 20px.
+- Aplication: Sirve para seleccionar elemento que esta directamente despues de otro elemento; y selecciona unicamente uno.
+
+---
+
+### General Sibling Selector
+
+```css
+plate ~ pickle {
+    display: none;
+}
+```
+
+- Description: Selecciona todos los ```pickle``` que estan despues de un ```bento```, y les cambia el display a none para que se oculten.
+- Aplication: Sirve para seleccionar los elementos que estan despues de otro elemento; este selecciona a todos.
+
+---
+#asdrdad
+### Child Selector
