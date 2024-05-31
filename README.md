@@ -18,7 +18,7 @@ div {
 ```
 
 - Descripcion: Selecciona el elemento que tiene el id **cool** y le agrega un padding de 25px.
-- Applicacion: Estiliza el elemento que tenga ese id especifico.
+- Aplicacion: Estiliza el elemento que tenga ese id especifico.
   
 ---
 
@@ -31,7 +31,7 @@ div p {
 ```
 
 - Description: Selecciona los elementos ```<p>``` que esten dentro de un elemento ```<div>```, y posiciona el texto en el centro.
-- Applicacion: sirve para seleccionar un elemento que este dentro de otro. Se puede utilizar con class selectors, id selectors, etc.
+- Aplicacion: sirve para seleccionar un elemento que este dentro de otro. Se puede utilizar con class selectors, id selectors, etc.
 
 ---
 
@@ -43,8 +43,8 @@ div p {
 }
 ```
 
-- Desciption: Selecciona todos los elementos que tengan la clase **epic**, y les pone un borde de 5px de color azul.
-- Applicacion: Selecciona todos los elementos que tengan esa clase. Un elemento puede tener un solo id, pero multiples clases.
+- Descripcion: Selecciona todos los elementos que tengan la clase **epic**, y les pone un borde de 5px de color azul.
+- Aplicacion: Selecciona todos los elementos que tengan esa clase. Un elemento puede tener un solo id, pero multiples clases.
 
 ---
 
@@ -56,8 +56,8 @@ div.shift {
 }
 ```
 
-- Description: Selecciona todos los elementos que esten dentro de un ```<div>```, y que tengan la clase **shift**; y les cambia el display de block a grid.
-- Applicacion: Sirve para combinar los class selectors con otros tipos de selectors.
+- Descripcion: Selecciona todos los elementos que esten dentro de un ```<div>```, y que tengan la clase **shift**; y les cambia el display de block a grid.
+- Aplicacion: Sirve para combinar los class selectors con otros tipos de selectors.
 
 ---
 
@@ -69,8 +69,8 @@ div, span, .shift {
 }
 ```
 
-- Description: Selecciona a los ```<div>```, ```<span>```, y los elementos que tengan la clase **shift**; y les pone el fondo de color verde.
-- Applicacion: Sirve para seleccionar multiples elementos y agregarles las mismas reglas css.
+- Descripcion: Selecciona a los ```<div>```, ```<span>```, y los elementos que tengan la clase **shift**; y les pone el fondo de color verde.
+- Aplicacion: Sirve para seleccionar multiples elementos y agregarles las mismas reglas css.
 
 ---
 
@@ -81,8 +81,8 @@ div, span, .shift {
     font-family: sans-serif;
 }
 ```
-- Description: Selecciona todos los elementos del documento, y le cambia la fuente de texto a sans-serif
-- Application: Sirve para seleccionar todos los elementos de un documento HTML.
+- Descripcion: Selecciona todos los elementos del documento, y le cambia la fuente de texto a sans-serif
+- Aplication: Sirve para seleccionar todos los elementos de un documento HTML.
 
 Este operador se puede combinar con otros selectores, por ejemplo:
 
@@ -92,7 +92,7 @@ div * {
 }
 ```
 
-- Description: Selecciona todos los elementos dentro de un div, y la cambia la fuente de texto a sans-serif.
+- Descripcion: Selecciona todos los elementos dentro de un div, y la cambia la fuente de texto a sans-serif.
 
 ---
 
@@ -105,8 +105,8 @@ plate + apple {
 }
 ```
 
-- Description: Selecciona el primer elemento ```apple``` que esta despues de un elemento ```plate```, y le aplica un margin de 50px y un padding de 20px.
-- Application: Sirve para seleccionar elemento que esta directamente despues de otro elemento; y selecciona unicamente uno.
+- Descripcion: Selecciona el primer elemento ```apple``` que esta despues de un elemento ```plate```, y le aplica un margin de 50px y un padding de 20px.
+- Aplicacion: Sirve para seleccionar elemento que esta directamente despues de otro elemento; y selecciona unicamente uno.
 
 ---
 
@@ -118,8 +118,8 @@ plate ~ pickle {
 }
 ```
 
-- Description: Selecciona todos los ```pickle``` que estan despues de un ```bento```, y les cambia el display a none para que se oculten.
-- Application: Sirve para seleccionar los elementos que estan despues de otro elemento; este selecciona a todos.
+- Descripcion: Selecciona todos los ```pickle``` que estan despues de un ```bento```, y les cambia el display a none para que se oculten.
+- Aplicacion: Sirve para seleccionar los elementos que estan despues de otro elemento; este selecciona a todos.
 
 ---
  
@@ -129,6 +129,6 @@ plate ~ pickle {
 
 ```
 
-- Description
-- Application: 
+- Descripcion
+- Aplicacion: 
 
