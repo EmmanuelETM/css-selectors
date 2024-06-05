@@ -41,7 +41,7 @@ div p {
 ### Class selectors
 
 ```css
-.epic {
+.epic {s <a>
     border: 5px blue;
 }
 ```
@@ -314,7 +314,7 @@ a[href*="postgresql.org"] {
 ```
 
 
-- Descripción: Este selector aplica un color azul a todos ``<a>`` cuyo atributo **href** sea el string *"postgresql.org"*.
+- Descripción: Este selector aplica un color azul a todos los``<a>`` cuyo atributo **href** sea el string *"postgresql.org"*.
 
 ##### Attribute Starts With Selector
 
@@ -325,7 +325,7 @@ a[href^="https://"] {
 ```
 
 
-- Descripción: Este selector aplica un color verde a todos ``<a>`` cuyo atributo **href** comience con *"https://"*. Para indicar este selector se utiliza el símbolo **`^`**
+- Descripción: Este selector aplica un color verde a todos los ``<a>`` cuyo atributo **href** comience con *"https://"*. Para indicar este selector se utiliza el símbolo **`^`**
 
 ##### Attribute Ends With Selector
 
